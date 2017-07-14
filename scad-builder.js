@@ -361,7 +361,7 @@ function genImportSrc(){
         s += n + ", ";
     }
 
-    s += "\n} = require('../scad-builder');\n";
+    s += "\n} = require('scad-builder');\n";
     s += "// #scad-builder:end\n";
 
     console.log(s);
