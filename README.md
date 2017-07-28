@@ -1,11 +1,11 @@
-# scad-builder
+# scad-builder-core
 Library to translating JavaScript to .scad code
 
 
 ## Installation
 
 ```bash
-npm install scad-builder
+npm install scad-builder-core
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ const {
   translate, scale, rotate, mirror, 
   multmatrix, minkowski, hull, 
   linear_extrude, rotate_extrude, color, text, 
-} = require('scad-builder');
+} = require('scad-builder-core');
 
 ```
 
@@ -39,7 +39,7 @@ const {
   translate, scale, rotate, mirror, 
   multmatrix, minkowski, hull, 
   linear_extrude, rotate_extrude, color, text, 
-} = require('scad-builder');
+} = require('scad-builder-core');
 
 
 let p = {
@@ -60,7 +60,7 @@ union([
 
 
 let genParam = {
-    header: "// header : scad-builder test ",
+    header: "// header : scad-builder-core test ",
     footer: "// footer",
     include: [
         './util.scad',
@@ -78,7 +78,7 @@ Result:
 
 ```
 
-// header : scad-builder test 
+// header : scad-builder-core test 
 
 include <./util.scad>
 

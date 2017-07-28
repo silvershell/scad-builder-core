@@ -1,27 +1,27 @@
 {
-  "name": "scad-builder",
+  "name": "scad-builder-core",
   "version": "0.6.0",
   "private": false,
   "description": "Library to translate JavaScript to .scad code",
-  "main": "scad-builder.js",
+  "main": "scad-builder-core.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silvershell/scad-builder.git"
+    "url": "git+https://github.com/silvershell/scad-builder-core.git"
   },
   "keywords": [
     "openscad",
     "scad",
     "builder"
   ],
-  "author": "silvershell <silvershell100@gmail.com> (https://github.com/silvershell/scad-builder)",
+  "author": "silvershell <silvershell100@gmail.com> (https://github.com/silvershell/scad-builder-core)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silvershell/scad-builder/issues"
+    "url": "https://github.com/silvershell/scad-builder-core/issues"
   },
-  "homepage": "https://github.com/silvershell/scad-builder#readme",
+  "homepage": "https://github.com/silvershell/scad-builder-core#readme",
   "dependencies": {
     "lodash": "^4.17.4"
   }
